@@ -68,4 +68,4 @@ st.markdown("""
 """)
 
 st.markdown("---")
-st.markdown("Feito com ❤️ por um main suporte")
+st.markdown("Nada ave")
