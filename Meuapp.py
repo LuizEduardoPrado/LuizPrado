@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Builds para Thresh", layout="centered")
+st.set_page_config(page_title="CV", layout="centered")
 
-st.title("🔗 Melhores Builds para Thresh")
-st.subheader("Atualizado para o patch mais recente")
+st.title("CV")
+st.subheader("Luiz Eduardo Prado de Oliveira")
 
 st.markdown("---")
 
@@ -12,6 +12,8 @@ st.markdown("---")
 def copy_box(title, content):
     with st.expander(title):
         st.code(content, language='text')
+
+
 
 # --- Runas ---
 st.header("🌿 Runas Recomendadas (Pós-Choque)")
