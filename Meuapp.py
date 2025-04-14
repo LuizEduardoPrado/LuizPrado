@@ -16,7 +16,7 @@ pdf_google = "https://drive.google.com/file/d/1a6Ro_LGdcc9SrBPYjL2OB8ZD-TG4TLQl/
 pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV.pdf"
 
 # Botão de download / abrir em nova aba
-st.markdown(f"[📄 Clique aqui para baixar o PDF]({pdf_url})")
+st.markdown(f"📄 Clique aqui para baixar o PDF({pdf_url})")
 
 linkedin_url = "https://www.linkedin.com/in/luiz-prado-3028ab248/"
 
