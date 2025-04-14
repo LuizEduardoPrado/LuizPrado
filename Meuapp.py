@@ -9,9 +9,10 @@ st.subheader("Luiz Eduardo Prado de Oliveira")
 
 st.markdown("---")
 
-# URL direta para o PDF (link raw do googledrive)
-pdf_google = "https://drive.google.com/file/d/1a6Ro_LGdcc9SrBPYjL2OB8ZD-TG4TLQl/view?usp=drive_link"
+# Link do Google Drive com preview
+pdf_google = "https://drive.google.com/file/d/1a6Ro_LGdcc9SrBPYjL2OB8ZD-TG4TLQl/preview"
 
+# Exibe o PDF com iframe
 components.html(f'''
     <iframe src="{pdf_google}" width="700" height="1000" allow="autoplay"></iframe>
 ''', height=1000)
@@ -26,3 +27,5 @@ components.html(f'''
 
 # Botão de download / abrir em nova aba
 st.markdown(f"[📄 Clique aqui para abrir o PDF em nova aba]({pdf_url})")
+
+st.markdown("---")
