@@ -20,12 +20,10 @@ st.markdown(f"[📄 Clique aqui para baixar o PDF]({pdf_url})")
 
 linkedin_url = "https://www.linkedin.com/in/luiz-prado-3028ab248/"
 
-st.markdown(f"[LinkedIn]({pdf_url})")
-
 st.markdown(f'''
-<a href="{pdf_google}" target="_blank" style="text-decoration: none;">
+<a href="{linkedin_url}" target="_blank" style="text-decoration: none;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" style="vertical-align: middle; margin-right: 8px;" />
-    <span style="font-size: 16px; vertical-align: middle;">Clique aqui para abrir o PDF</span>
+    <span style="font-size: 16px; vertical-align: middle;">LinkedIn</span>
 </a>
 ''', unsafe_allow_html=True)
 
