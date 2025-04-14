@@ -18,6 +18,10 @@ pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUI
 # Botão de download / abrir em nova aba
 st.markdown(f"[📄 Clique aqui para baixar o PDF]({pdf_url})")
 
+linkedin_url = "https://www.linkedin.com/in/luiz-prado-3028ab248/"
+
+st.markdown(f"[LinkedIn]({pdf_url})")
+
 st.markdown("---")
 
 # Exibe o PDF com iframe
