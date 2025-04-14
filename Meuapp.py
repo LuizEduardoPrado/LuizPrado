@@ -4,8 +4,6 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="CV", layout="centered")
 
-st.markdown("---")
-
 st.title("CV")
 st.subheader("Luiz Eduardo Prado de Oliveira")
 
