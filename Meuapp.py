@@ -16,7 +16,13 @@ pdf_google = "https://drive.google.com/file/d/1a6Ro_LGdcc9SrBPYjL2OB8ZD-TG4TLQl/
 pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV.pdf"
 
 # Botão de download / abrir em nova aba
-st.markdown(f"[PDF]({pdf_url})")
+# Link com ícone de PDF como "botão"
+st.markdown(f'''
+<a href="{pdf_url}" target="_blank" style="text-decoration: none;">
+    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="20" style="vertical-align: middle; margin-right: 8px;" />
+    <span style="font-size: 16px; vertical-align: middle;">PDF</span>
+</a>
+''', unsafe_allow_html=True)
 
 linkedin_url = "https://www.linkedin.com/in/luiz-prado-3028ab248/"
 
