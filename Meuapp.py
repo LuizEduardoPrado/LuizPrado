@@ -21,6 +21,6 @@ components.html(f'''
 pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV.pdf"
 
 # Botão de download / abrir em nova aba
-st.markdown(f"[📄 Clique aqui para abrir o PDF em nova aba]({pdf_url})")
+st.markdown(f"[📄 Clique aqui para baixar o PDF]({pdf_url})")
 
 st.markdown("---")
