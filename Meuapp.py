@@ -22,7 +22,7 @@ st.markdown("---")
 
 # Exibe o PDF com iframe
 components.html(f'''
-    <iframe src="{pdf_google}" width="700" height="1100" allow="autoplay"></iframe>
+    <iframe src="{pdf_google}" width="700" height="1200" allow="autoplay"></iframe>
 ''', height=1000)
 
 st.markdown("---")
