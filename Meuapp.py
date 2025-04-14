@@ -10,7 +10,7 @@ st.subheader("Luiz Eduardo Prado de Oliveira")
 st.markdown("---")
 
 # URL direta para o PDF (link raw do GitHub)
-pdf_url = "https://github.com/LuizEduardoPrado/LuizPrado/blob/main/CV.png"
+pdf_url = "https://github.com/LuizEduardoPrado/LuizPrado/blob/main/LUIZ%20PRADO%20CV.pdf"
 
 # Exibe o PDF com iframe
 components.html(f'''
