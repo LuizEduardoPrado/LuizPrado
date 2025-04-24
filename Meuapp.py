@@ -50,5 +50,3 @@ with aba2:
     components.html(f'''
         <iframe src="{pdf_google}" width="700" height="1000" allow="autoplay"></iframe>
     ''', height=1000)
-    
-st.markdown("---")
