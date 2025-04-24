@@ -37,7 +37,7 @@ st.markdown(f'''
 </a>
 ''', unsafe_allow_html=True)
 
-
+st.markdown("---")
 
 aba1, aba2 = st.tabs(["Português", "English"])
 
