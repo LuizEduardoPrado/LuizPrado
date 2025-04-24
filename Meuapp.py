@@ -50,5 +50,5 @@ with aba1:
 with aba2:
     # Exibe o PDF com iframe
     components.html(f'''
-        <iframe src="{pdf_ingles}" width="700" height="1000" allow="autoplay"></iframe>
+        <iframe src="{pdf_ingles}" width="750" height="1000" allow="autoplay"></iframe>
     ''', height=1000)
