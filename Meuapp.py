@@ -4,6 +4,8 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="CV", layout="centered")
 
+
+
 st.title("CV")
 st.subheader("Luiz Eduardo Prado de Oliveira")
 
@@ -35,9 +37,18 @@ st.markdown(f'''
 
 st.markdown("---")
 
-# Exibe o PDF com iframe
-components.html(f'''
-    <iframe src="{pdf_google}" width="700" height="1000" allow="autoplay"></iframe>
-''', height=1000)
+aba1, aba2 = st.tabs(["Português", "English"])
 
+with aba1:
+    # Exibe o PDF com iframe
+    components.html(f'''
+        <iframe src="{pdf_google}" width="700" height="1000" allow="autoplay"></iframe>
+    ''', height=1000)
+
+with aba2:
+    # Exibe o PDF com iframe
+    components.html(f'''
+        <iframe src="{pdf_google}" width="700" height="1000" allow="autoplay"></iframe>
+    ''', height=1000)
+    
 st.markdown("---")
