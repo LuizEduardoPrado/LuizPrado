@@ -24,7 +24,7 @@ pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUI
 st.markdown(f'''
 <a href="{pdf_url}" target="_blank" style="text-decoration: none;">
     <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="20" style="vertical-align: middle; margin-right: 8px;" />
-    <span style="font-size: 16px; vertical-align: middle;">PDF</span>
+    <span style="font-size: 16px; vertical-align: middle;">PDF [PT-BR]</span>
 </a>
 ''', unsafe_allow_html=True)
 
@@ -37,7 +37,6 @@ st.markdown(f'''
 </a>
 ''', unsafe_allow_html=True)
 
-st.markdown("---")
 
 aba1, aba2 = st.tabs(["Português", "English"])
 
