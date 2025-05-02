@@ -32,7 +32,7 @@ st.markdown(f'''
 st.markdown(f'''
 <a href="{pdf_url2}" target="_blank" style="text-decoration: none;">
     <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="20" style="vertical-align: middle; margin-right: 8px;" />
-    <span style="font-size: 16px; vertical-align: middle;">PDF [PT-BR]</span>
+    <span style="font-size: 16px; vertical-align: middle;">PDF [EN]</span>
 </a>
 ''', unsafe_allow_html=True)
 
