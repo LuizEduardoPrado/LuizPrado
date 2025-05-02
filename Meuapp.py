@@ -18,7 +18,7 @@ pdf_ingles = "https://drive.google.com/file/d/1tcn9aDchDT4V74qHcigpif5yEX0T58QW/
 
 # URL direta para o PDF (link raw do GitHub)
 pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV.pdf"
-pdf_url2 = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/ingles.pdf"
+pdf_url2 = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV%20EN.pdf"
 
 # Botão de download / abrir em nova aba
 # Link com ícone de PDF como "botão"
