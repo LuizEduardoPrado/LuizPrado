@@ -18,11 +18,19 @@ pdf_ingles = "https://drive.google.com/file/d/1tcn9aDchDT4V74qHcigpif5yEX0T58QW/
 
 # URL direta para o PDF (link raw do GitHub)
 pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV.pdf"
+pdf_url2 = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/ingles.pdf"
 
 # Botão de download / abrir em nova aba
 # Link com ícone de PDF como "botão"
 st.markdown(f'''
 <a href="{pdf_url}" target="_blank" style="text-decoration: none;">
+    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="20" style="vertical-align: middle; margin-right: 8px;" />
+    <span style="font-size: 16px; vertical-align: middle;">PDF [PT-BR]</span>
+</a>
+''', unsafe_allow_html=True)
+
+st.markdown(f'''
+<a href="{pdf_url2}" target="_blank" style="text-decoration: none;">
     <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="20" style="vertical-align: middle; margin-right: 8px;" />
     <span style="font-size: 16px; vertical-align: middle;">PDF [PT-BR]</span>
 </a>
