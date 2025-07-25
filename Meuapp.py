@@ -12,9 +12,9 @@ st.subheader("Luiz Eduardo Prado de Oliveira")
 st.markdown("---")
 
 # Link do Google Drive com preview
-pdf_portugues = "https://drive.google.com/file/d/1mZJAUdo3Vt7j4SdCU64Ar08aJAEgWU7n/preview"
+pdf_portugues = "https://drive.google.com/file/d/10jM6J7FJLIPN9sE_Grd6Ps3J42YrkFYO/preview"
 pdf_google = "https://drive.google.com/file/d/1a6Ro_LGdcc9SrBPYjL2OB8ZD-TG4TLQl/preview"
-pdf_ingles = "https://drive.google.com/file/d/1FzCXLZcrZyAmAXhvOGGkV6z8AYdeZPAp/preview"
+pdf_ingles = "https://drive.google.com/file/d/1-Of1QW-tCZAQPNAb_e6CdgJiNLjTD85e/preview"
 
 # URL direta para o PDF (link raw do GitHub)
 pdf_url = "https://raw.githubusercontent.com/LuizEduardoPrado/LuizPrado/main/LUIZ%20PRADO%20CV.pdf"
